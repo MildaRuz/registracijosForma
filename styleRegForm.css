@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #000000;
+  width: 810px;
+  height: 790px;
+  margin: 0;
+  margin-left: 27%;
+  background-image: url(Blend\ Group\ 1.png);
+  border-radius: 40px;
+}
+.font {
+  font-family: 'Poppins', sans-serif;
+}
+.title-color {
+  color: #ffffff;
+}
+.subtitle-color {
+  color: #7f7f7f;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: unset;
+  margin-left: 27%;
+  background-color: #242424;
+  padding-top: 10px;
+  padding-left: 120px;
+}
+::placeholder {
+  color: #7f7f7f;
+}
+
+input {
+  width: 550px;
+  height: 45px;
+  padding: 10px;
+  background-color: #242424;
+  border: unset;
+  border: 1px solid #3d3d3d;
+  border-radius: 4px;
+  margin: 5px auto;
+  color: #ffffff;
+}
+
+.confirm-checkbox {
+  width: 18px;
+  height: 18px;
+  margin: unset;
+  margin-top: 5px;
+  background-color: #242424;
+  accent-color: #242424;
+}
+
+/* form input[type='checkbox'] {
+  width: 40px;
+  box-shadow: none;
+  margin: 0;
+  display: none;
+}
+
+input[type='checkbox'] + label::before {
+  content: ''; /* Unicode checkmark character */
+/* display: inline-block;
+  /* width: 20px;
+  height: 20px; */
+/* text-align: center; */
+/* line-height: 20px;
+  background-color: #242424;
+  border: 1px solid #3d3d3d;
+  margin-right: 10px;
+} */
+
+/* input[type='checkbox']:checked + label::before {
+  content: '\2713'; /* Unicode checkmark character */
+/*background-color: #535757;
+  color: #fff;
+  accent-color: #242424;
+}
+
+label {
+  cursor: pointer;
+}
+form .checkbox label {
+  color: #7f7f7f;
+  font-size: 12px;
+}  */
+
+button {
+  width: 180px;
+  height: 38px;
+  color: #ffffff;
+  background-color: #4b72c2;
+  border: unset;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+
+hr {
+  border: unset;
+  border: 1px solid #3d3d3d;
+  margin-top: 48px;
+  margin-bottom: 28px;
+}
+.font-color {
+  color: #7f7f7f;
+  margin-top: 0;
+  font-size: small;
+}
+a {
+  text-decoration: none;
+}
+.bi {
+  width: 20px;
+  height: 20px;
+  color: #4b72c2;
+  vertical-align: -0.22em;
+  font-size: unset;
+  font-size: x-large;
+  font-weight: bold;
+  margin-left: 5px;
+  display: inline-block;
+  align-items: center;
+}
